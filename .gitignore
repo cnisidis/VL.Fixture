@@ -1,3 +1,4 @@
-/csharp/VL.Fixtures/bin
-/csharp/VL.Fixtures/obj
-/csharp/VL.Fixtures/.vs
+/src/Fixture/bin
+/src/Fixture/obj
+/src/Fixture/.vs
+/lib/*
