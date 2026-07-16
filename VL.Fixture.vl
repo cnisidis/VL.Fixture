@@ -1737,6 +1737,7 @@
                 <Patch Id="OBVoSS84ziBPqQJRpOe8zh" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="306,258,76,26" AutoConnect="true" Id="MeK9Nwu4XhRL2McZly8FRC">
                   <p:NodeReference LastCategoryFullName="Fixtures.Fixture.FixtureDefinition" LastDependency="Fixtures.csproj">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Modes" />
                     <FullNameCategoryReference ID="Fixtures.Fixture.FixtureDefinition" />
                   </p:NodeReference>
@@ -2248,6 +2249,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="HKN6J2jjpEMMxw95VSRnlA" Location="VL.Fixtures" Version="0.0.0" />
-  <PlatformDependency Id="AM2hgUINoroQG4KunL5Ea1" Location="./src/Fixtures/bin/Debug/net8.0/Fixtures.dll" />
+  <PlatformDependency Id="C0q8syX2W3jO0BmInYRKX8" Location="../VL.GDTF/lib/Debug/net8.0/Fixture.dll" />
 </Document>
