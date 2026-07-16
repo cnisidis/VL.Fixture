@@ -17,6 +17,10 @@ namespace Fixture
         public string ModelName { get; set; }
         public string Description { get; set; }
         public List<GenericDmxMode> Modes { get; } = new();
+
+        
+
+        
     }
 
     public class GenericDmxMode

@@ -29,6 +29,31 @@ namespace Fixture
             this.Definition = definition;
         }
 
+        public void SetMode(GenericDmxMode Mode)
+        {
+            this.ActiveMode = Mode;
+        }
+
+        public void SetMode(int index)
+        {
+            try
+            {
+                ActiveMode = this.Definition.Modes[index];
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally 
+            {
+                if (Definition.Modes != null)
+                    ActiveMode = this.Definition.Modes[0];
+                else
+                    ActiveMode = new GenericDmxMode();
+            }
+            
+        }
+
         public void SetMode(string modeName)
         {
             ActiveMode = Definition.Modes.Find(m => m.Name.Equals(modeName, StringComparison.OrdinalIgnoreCase))
