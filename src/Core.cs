@@ -3,7 +3,7 @@
 
 using Stride.Core;
 
-namespace VL.Fixtures;
+namespace Fixture;
 
 public static class Core
 {

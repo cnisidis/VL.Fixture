@@ -1736,10 +1736,9 @@
                 <Patch Id="SLuw6Q6ybeBQRr2K0BbdaU" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="OBVoSS84ziBPqQJRpOe8zh" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="306,258,76,26" AutoConnect="true" Id="MeK9Nwu4XhRL2McZly8FRC">
-                  <p:NodeReference LastCategoryFullName="Fixtures.Fixture.FixtureDefinition" LastDependency="Fixtures.csproj">
+                  <p:NodeReference LastCategoryFullName="Fixture.FixtureDefinition" LastDependency="Fixture.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Modes" />
-                    <FullNameCategoryReference ID="Fixtures.Fixture.FixtureDefinition" />
                   </p:NodeReference>
                   <Pin Id="PtDx5oLbxgwORBLVYQ2uEz" Name="Input" Kind="StateInputPin" />
                   <Pin Id="FrVJzLBbdj6NxgogiJNtVG" Name="Output" Kind="StateOutputPin" />
@@ -1786,9 +1785,9 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="HccoCWNuGAPNqUflk6BvRK">
               <Node Bounds="298,354,83,26" AutoConnect="true" Id="JxulcYoMaRjP3yePRsjVrJ">
-                <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationNode" Name="AttributeName" />
-                  <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                 </p:NodeReference>
                 <Pin Id="IPPr9OglASSQXTshwLNLpT" Name="Input" Kind="StateInputPin" />
                 <Pin Id="GnckqmeZgMFNyeouDoMR5C" Name="Output" Kind="StateOutputPin" />
@@ -1812,9 +1811,10 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="BdV6vSxjYGCLqydNmJmsY6">
               <Node Bounds="448,349,74,26" AutoConnect="true" Id="PSvkkrWvIjsPgzodgtTmYS">
-                <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationNode" Name="DefaultValue" />
-                  <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                 </p:NodeReference>
                 <Pin Id="GmLhfkJOwnzOhLZguFf0t0" Name="Input" Kind="StateInputPin" />
                 <Pin Id="HtISAFeucESP5LHJDVakD3" Name="Output" Kind="StateOutputPin" />
@@ -1838,9 +1838,10 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="UUNMrVftCCaNWWDhISKgNr">
               <Node Bounds="599,349,72,26" AutoConnect="true" Id="DMAK9baywGlOTo09hE8Y4c">
-                <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationNode" Name="PhysicalMax" />
-                  <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                 </p:NodeReference>
                 <Pin Id="DGz1oTBrZUwL67AdJ2SK8M" Name="Input" Kind="StateInputPin" />
                 <Pin Id="CEWIcu7Lc6sL53G2xXDEH7" Name="Output" Kind="StateOutputPin" />
@@ -1864,9 +1865,10 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="KrLbQySlSkUNWn0D8rLj93">
               <Node Bounds="736,349,72,26" AutoConnect="true" Id="KsdHBndA94XLnN1hGl87um">
-                <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationNode" Name="PhysicalMin" />
-                  <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                 </p:NodeReference>
                 <Pin Id="OMSLs7jDqBuMq2CFFMBi0y" Name="Input" Kind="StateInputPin" />
                 <Pin Id="PGFV7ZPqYdkPeFKOpQ8Zl1" Name="Output" Kind="StateOutputPin" />
@@ -1890,9 +1892,10 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="UQQIJXDTiLjL7tLjdxGbFx">
               <Node Bounds="876,349,72,26" AutoConnect="true" Id="J5nlZWy3yU5OZMdQClh11B">
-                <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationNode" Name="PhysicalUnit" />
-                  <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                 </p:NodeReference>
                 <Pin Id="O3mqNd58Z8IOQtWOc9Re5f" Name="Input" Kind="StateInputPin" />
                 <Pin Id="Rl5hbfnH6HSLkzEy7RL8sk" Name="Output" Kind="StateOutputPin" />
@@ -1916,9 +1919,10 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="FFOqYZfEIKNP76FnsVPi6F">
               <Node Bounds="1013,349,79,26" AutoConnect="true" Id="CMhLgiTOfPvQaZBkPCLaZy">
-                <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationNode" Name="RelativeOffset" />
-                  <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                 </p:NodeReference>
                 <Pin Id="E9Yaa5CXAOdOzmm4jDgFi4" Name="Input" Kind="StateInputPin" />
                 <Pin Id="NAvZ3ILLHz2NuuilN8RZAR" Name="Output" Kind="StateOutputPin" />
@@ -1942,9 +1946,10 @@
             <p:HideCategory p:Type="Boolean">false</p:HideCategory>
             <Patch Id="KEbngLJJZe3LeDMkw056Is">
               <Node Bounds="1151,349,72,26" AutoConnect="true" Id="Hh3n21NO2btLYazOtTUTHJ">
-                <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                   <Choice Kind="OperationNode" Name="Resolution" />
-                  <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                 </p:NodeReference>
                 <Pin Id="SkqSc1YleIrOyQZVS8YpfX" Name="Input" Kind="StateInputPin" />
                 <Pin Id="OhEatwZBzbvPozrN4YGUim" Name="Output" Kind="StateOutputPin" />
@@ -1976,36 +1981,39 @@
                   <Patch Id="GBJPodHWm2DM1IQbb13c4q" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="AUMKKWij58bMMW9B75SHYr" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="338,590,83,26" AutoConnect="true" Id="VDy5Aoy7flRMY4KSYTa1Dx">
-                    <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                    <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationNode" Name="AttributeName" />
-                      <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                     </p:NodeReference>
                     <Pin Id="Oy75NoXbpqjMFCFUqdxrRW" Name="Input" Kind="StateInputPin" />
                     <Pin Id="FsCiJkzIKKLPpa1tJf4zfM" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="CNipKDeABbyOZlt94tyMt2" Name="Attribute Name" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="338,630,115,26" AutoConnect="true" Id="MQF9g04MuiwNHhVSITji9q">
-                    <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                    <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationNode" Name="RelativeOffset" />
-                      <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                     </p:NodeReference>
                     <Pin Id="I29fIf6l4R0NoPBum3mLZp" Name="Input" Kind="StateInputPin" />
                     <Pin Id="T6RnsJ5IXRlOLOZxizH5pq" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="NfYPWYAqBCcPvDTBiEQCFy" Name="Relative Offset" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="338,680,186,26" AutoConnect="true" Id="GSd8uEqlYrBNcHtBLxbwAe">
-                    <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                    <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationNode" Name="PhysicalUnit" />
-                      <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                     </p:NodeReference>
                     <Pin Id="STYcBGrOr5GO33RhygPWyh" Name="Input" Kind="StateInputPin" />
                     <Pin Id="GxWpIbkwcxhPkevDpBZ7P9" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="ApfWr9Ya0PCOFJVo7OdAR4" Name="Physical Unit" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="338,720,246,26" AutoConnect="true" Id="PhfmLHY5LGXMD2tSaSKvy8">
-                    <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericChannel" LastDependency="Fixtures.dll">
+                    <p:NodeReference LastCategoryFullName="Fixture.GenericChannel" LastDependency="Fixture.dll">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="AssemblyCategory" Name="GenericChannel" NeedsToBeDirectParent="true" />
                       <Choice Kind="OperationNode" Name="Resolution" />
-                      <FullNameCategoryReference ID="Fixtures.Fixture.GenericChannel" />
                     </p:NodeReference>
                     <Pin Id="JVNimDDveD7LliJo37e4bk" Name="Input" Kind="StateInputPin" />
                     <Pin Id="UvwHShCnc6LP0OMu7mAHu7" Name="Output" Kind="StateOutputPin" />
@@ -2124,9 +2132,10 @@
                 <Patch Id="BOebWWjxXQeOzzQ5KfbQHI" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="MC9ASV0XXviOwNbwZATDjG" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="351,298,81,26" AutoConnect="true" Id="AjXteaYrhUENRhquRrb7FO">
-                  <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericDmxMode" LastDependency="Fixtures.csproj">
+                  <p:NodeReference LastCategoryFullName="Fixture.GenericDmxMode" LastDependency="Fixture.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="GenericDmxMode" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationNode" Name="ChannelCount" />
-                    <FullNameCategoryReference ID="Fixtures.Fixture.GenericDmxMode" />
                   </p:NodeReference>
                   <Pin Id="LCIdw9JOlj1QDauRaX1txW" Name="Input" Kind="StateInputPin" />
                   <Pin Id="E9ZnfYrOqdaPRcspFSadNG" Name="Output" Kind="StateOutputPin" />
@@ -2195,9 +2204,10 @@
                 <Patch Id="CSOUS7AzWBxLHIEpY9iZre" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="PgJNjzNqC5QOnKRWg4xTky" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="574,286,80,26" AutoConnect="true" Id="PSfcjOGbgh9PQBpxOo19ns">
-                  <p:NodeReference LastCategoryFullName="Fixtures.Fixture.GenericDmxMode" LastDependency="Fixtures.csproj">
+                  <p:NodeReference LastCategoryFullName="Fixture.GenericDmxMode" LastDependency="Fixture.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="GenericDmxMode" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationNode" Name="Channels" />
-                    <FullNameCategoryReference ID="Fixtures.Fixture.GenericDmxMode" />
                   </p:NodeReference>
                   <Pin Id="Jo6uyhvSUNUPjkXckSAdOL" Name="Input" Kind="StateInputPin" />
                   <Pin Id="HukM2OwPeWzPfl700npTRJ" Name="Output" Kind="StateOutputPin" />
@@ -2227,6 +2237,175 @@
           </Patch>
         </Node>
       </Canvas>
+      <!--
+
+    ************************ GetDefinition ************************
+
+-->
+      <Node Name="GetDefinition" Bounds="518,113,171,234" Id="B5TZFgQFYFXPX88hRmgIf2">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" Name="Operation" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:HideCategory p:Type="Boolean">false</p:HideCategory>
+        <Patch Id="QZavciEaDbHMf0AxDC2od8">
+          <Node Bounds="541,183,97,80" Id="GM76lk4e0E3NPfpLnCsF9f">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+              <Choice Kind="ApplicationStatefulRegion" Name="If" />
+            </p:NodeReference>
+            <Pin Id="PKrl9LHSziAOl0Zqsez8a8" Name="Condition" Kind="InputPin" />
+            <Patch Id="ICaO4Qch9bOQVahs2R4DE2" ManuallySortedPins="true">
+              <Patch Id="HRoMq2WoDeSNh0Bm7jXGsr" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="QQdVnPKTdWUPQ3sRKNLBMB" Name="Then" ManuallySortedPins="true" />
+              <Node Bounds="553,212,71,26" AutoConnect="true" Id="T4CJ33eAh32LLOliJgNdRs">
+                <p:NodeReference LastCategoryFullName="Fixture.FixtureInstance" LastDependency="Fixture.dll">
+                  <Choice Kind="OperationNode" Name="Definition" />
+                  <FullNameCategoryReference ID="Fixture.FixtureInstance" />
+                </p:NodeReference>
+                <Pin Id="Ta8vNrb5mFqL9G9If4x7cC" Name="Input" Kind="StateInputPin" />
+                <Pin Id="ANqiq68nFrGM1aYqLxNn0C" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="TNrtrFlbLpXPgnuL7Z6n57" Name="Definition" Kind="OutputPin" />
+              </Node>
+            </Patch>
+            <ControlPoint Id="NQZSslQbvISPCNtNtYrsJQ" Bounds="555,189" Alignment="Top" />
+            <ControlPoint Id="FSBkaX11u2tMDx7f0JGEmK" Bounds="555,257" Alignment="Bottom" />
+            <ControlPoint Id="VaGrJ7wxYQoLgJ52kwMbnV" Bounds="621,257" Alignment="Bottom" />
+            <ControlPoint Id="VcZrMAKgWonPc1Q4m0PY6C" Bounds="621,189" Alignment="Top" />
+          </Node>
+          <Link Id="TzAS8HhBBInMKS3E3KRA80" Ids="NQZSslQbvISPCNtNtYrsJQ,FSBkaX11u2tMDx7f0JGEmK" IsFeedback="true" />
+          <Link Id="PvAiAEi26SWK9bviabn2pv" Ids="NQZSslQbvISPCNtNtYrsJQ,Ta8vNrb5mFqL9G9If4x7cC" />
+          <Link Id="BOdSJcrc1cgMfpobb7r2J0" Ids="GdtKMuIQmOHNseYRpu8cGN,NQZSslQbvISPCNtNtYrsJQ" />
+          <ControlPoint Id="GdtKMuIQmOHNseYRpu8cGN" Bounds="555,131" />
+          <Pin Id="Q7AupZto9bhQOnfAr0gc1B" Name="Fixture" Kind="InputPin" />
+          <Link Id="RcCm03PsHvWOuSGauKymfl" Ids="Q7AupZto9bhQOnfAr0gc1B,GdtKMuIQmOHNseYRpu8cGN" IsHidden="true" />
+          <Node Bounds="541,150,65,19" Id="F5vANunrGGrLFzZiYkFZ7z">
+            <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="IsAssigned" />
+            </p:NodeReference>
+            <Pin Id="TUfT8LDjireN8uHHo8Azti" Name="X" Kind="InputPin" />
+            <Pin Id="SDngK3ivNoYObPcgtR9OjG" Name="Result" Kind="OutputPin" />
+            <Pin Id="KXQBrvM8OcKMifRTGf9iv5" Name="Not Assigned" Kind="OutputPin" />
+          </Node>
+          <Link Id="SjLKMqGymlwOvQxqjBtxLX" Ids="GdtKMuIQmOHNseYRpu8cGN,TUfT8LDjireN8uHHo8Azti" />
+          <Link Id="SnXoxe5ax63Ni2nD9IcscP" Ids="SDngK3ivNoYObPcgtR9OjG,PKrl9LHSziAOl0Zqsez8a8" />
+          <Link Id="Joyx3ZpXPZJMHpaL4tK1p7" Ids="ANqiq68nFrGM1aYqLxNn0C,FSBkaX11u2tMDx7f0JGEmK" />
+          <Link Id="RoBWI7IW51bNqMGcfukHUh" Ids="FSBkaX11u2tMDx7f0JGEmK,S0uqk93LfaELxS8gFJtEGg" />
+          <ControlPoint Id="S0uqk93LfaELxS8gFJtEGg" Bounds="555,330" />
+          <Pin Id="VdE8ZOqMscSNaWvilPupPj" Name="Fixture" Kind="OutputPin" />
+          <Link Id="HVgnLOAY9bFLHoiF1Z0DS6" Ids="S0uqk93LfaELxS8gFJtEGg,VdE8ZOqMscSNaWvilPupPj" IsHidden="true" />
+          <Link Id="HjjHHkrmCQgMpNRyBHFqob" Ids="VcZrMAKgWonPc1Q4m0PY6C,VaGrJ7wxYQoLgJ52kwMbnV" IsFeedback="true" />
+          <Link Id="Kuo7KMGzxVoLwbEsY2zojs" Ids="TNrtrFlbLpXPgnuL7Z6n57,VaGrJ7wxYQoLgJ52kwMbnV" />
+          <Link Id="FKOm5pQfX46MLEmKGuwaKF" Ids="VaGrJ7wxYQoLgJ52kwMbnV,GnGbXWpGSErPbOYNCraZ5l" />
+          <ControlPoint Id="GnGbXWpGSErPbOYNCraZ5l" Bounds="621,290" />
+          <Pin Id="FEpR10SKXYJN9RM54lV6PF" Name="Definition" Kind="OutputPin" />
+          <Link Id="G5MEZzTYdrTOoquZpf1NJ4" Ids="GnGbXWpGSErPbOYNCraZ5l,FEpR10SKXYJN9RM54lV6PF" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Split ************************
+
+-->
+      <Node Name="Split" Bounds="801,162,266,395" Id="FMBz58Eya5iLdvGF6T32Tu">
+        <p:NodeReference>
+          <Choice Kind="OperationDefinition" />
+        </p:NodeReference>
+        <Patch Id="RcdqQLUOkeBO6fFRjTNKvT">
+          <ControlPoint Id="D6PYOYpLCOgQVB3LCslTtD" Bounds="838,180" />
+          <Pin Id="IdVAE8AA090NmwKn9PIDui" Name="Fixture" Kind="InputPin" />
+          <Node Bounds="824,199,65,19" Id="KC9HKgmh7lUNhD6gS5bePK">
+            <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="IsAssigned" />
+            </p:NodeReference>
+            <Pin Id="Pcwpx5iKbKALreO306UITB" Name="X" Kind="InputPin" />
+            <Pin Id="MqGjQc5fk2OLRXyHKt6PDp" Name="Result" Kind="OutputPin" />
+            <Pin Id="V64odKAfdLoNwm1hpLFOXU" Name="Not Assigned" Kind="OutputPin" />
+          </Node>
+          <Link Id="SxZUp3AsHNIOBmS2pPTXYA" Ids="IdVAE8AA090NmwKn9PIDui,D6PYOYpLCOgQVB3LCslTtD" IsHidden="true" />
+          <Link Id="BGvjeSSDdY0OgnrffggsHt" Ids="D6PYOYpLCOgQVB3LCslTtD,Pcwpx5iKbKALreO306UITB" />
+          <Node Bounds="824,252,178,224" Id="MXoSPmfsfZqPehfhydSQT9">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+              <Choice Kind="ApplicationStatefulRegion" Name="If" />
+            </p:NodeReference>
+            <Pin Id="OvFkIc4lpoZQQ71KFn7MLs" Name="Condition" Kind="InputPin" />
+            <Patch Id="TM5s3y8IJVTLqGXy5vjzzr" ManuallySortedPins="true">
+              <Patch Id="RPP5nZ6KoFFQTyfOc1hve7" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="FqMhXLGTnUmLckEvTjFBl9" Name="Then" ManuallySortedPins="true" />
+              <Node Bounds="836,281,71,26" Id="U8iYKuztgyrLuDW2oikJvm">
+                <p:NodeReference LastCategoryFullName="Fixture.FixtureInstance" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="AssemblyCategory" Name="FixtureInstance" NeedsToBeDirectParent="true" />
+                  <Choice Kind="OperationCallFlag" Name="Name" />
+                </p:NodeReference>
+                <Pin Id="DpqzWPt3hW3N41ikPPpGE4" Name="Input" Kind="StateInputPin" />
+                <Pin Id="BRuoTYXoyvxL1gPDwH1GHn" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="KCeceuIfKcWNcpXRHTOPJE" Name="Name" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="836,360,150,26" Id="NSHJMbISGZLNK3Y2WckBCc">
+                <p:NodeReference LastCategoryFullName="Fixture.FixtureInstance" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="StartAddress" />
+                </p:NodeReference>
+                <Pin Id="PIsqeAbTmIhO3RhbpgDKyQ" Name="Input" Kind="StateInputPin" />
+                <Pin Id="HZI1ER1MPDBQQtVFt56fCI" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="DVM6TYzrPKKNTPcaoLpPcp" Name="Start Address" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="836,410,124,26" Id="P4PVqD4LjYdOWwldXKPFur">
+                <p:NodeReference LastCategoryFullName="Fixture.FixtureInstance" LastDependency="Fixture.dll">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Universe" />
+                </p:NodeReference>
+                <Pin Id="CxHBtWzB1Z8Mzsurmh8W5f" Name="Input" Kind="StateInputPin" />
+                <Pin Id="LiPcC6q3orPNhaodVP0ve9" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="TGfGPFmLUHlLUJSc1a16Q9" Name="Universe" Kind="OutputPin" />
+              </Node>
+            </Patch>
+            <ControlPoint Id="I8OOlzK5ghMM2y4c49U0Id" Bounds="838,258" Alignment="Top" />
+            <ControlPoint Id="Dtkby8IzMXXL2f9C8vS0Py" Bounds="838,470" Alignment="Bottom" />
+            <ControlPoint Id="UY4CWtZmLs2MHuBIq3tyhp" Bounds="904,470" Alignment="Bottom" />
+            <ControlPoint Id="TWAJd1pvEczNZc9nSl3R8J" Bounds="904,258" Alignment="Top" />
+            <ControlPoint Id="MzdojykPKw8LB2gnqCW8x8" Bounds="983,470" Alignment="Bottom" />
+            <ControlPoint Id="AR7P7yTdYXPO3FMAAJKzcI" Bounds="941,258" Alignment="Top" />
+            <ControlPoint Id="AflinYsRxvpPkbfuR7dNiT" Bounds="957,470" Alignment="Bottom" />
+            <ControlPoint Id="RbNeKthuyxoLhTXxNZgKrL" Bounds="957,258" Alignment="Top" />
+          </Node>
+          <Link Id="GQsthl7U0unOFbo1E0DsJm" Ids="MqGjQc5fk2OLRXyHKt6PDp,OvFkIc4lpoZQQ71KFn7MLs" />
+          <Link Id="SWvJLvA3ZNdO6F9MiLs0Eq" Ids="I8OOlzK5ghMM2y4c49U0Id,Dtkby8IzMXXL2f9C8vS0Py" IsFeedback="true" />
+          <Link Id="S9S1rAqjnoyOWbG2rWqz1y" Ids="D6PYOYpLCOgQVB3LCslTtD,I8OOlzK5ghMM2y4c49U0Id" />
+          <Link Id="NvJL3wBrib7LCPfqYVcLEL" Ids="I8OOlzK5ghMM2y4c49U0Id,DpqzWPt3hW3N41ikPPpGE4" />
+          <Link Id="IN6HYrifAMQP1qNVL9wfC0" Ids="Dtkby8IzMXXL2f9C8vS0Py,NN8S7oAxpzRQIjcyncYJ6j" />
+          <ControlPoint Id="NN8S7oAxpzRQIjcyncYJ6j" Bounds="838,496" />
+          <Pin Id="TRUYlJ1kyE0NYU2dxnGAiN" Name="Fixture" Kind="OutputPin" Visibility="Optional" />
+          <Link Id="HlCQQ0EBw45OKuD8zZGGjD" Ids="NN8S7oAxpzRQIjcyncYJ6j,TRUYlJ1kyE0NYU2dxnGAiN" IsHidden="true" />
+          <Link Id="SCvsfZA8IajO6LswmkzQch" Ids="TWAJd1pvEczNZc9nSl3R8J,UY4CWtZmLs2MHuBIq3tyhp" IsFeedback="true" />
+          <Link Id="MA34JinhtyLO6AZfVhYUEG" Ids="KCeceuIfKcWNcpXRHTOPJE,UY4CWtZmLs2MHuBIq3tyhp" />
+          <Link Id="Lq6bEgPIqF5OcbrqCH8hYG" Ids="UY4CWtZmLs2MHuBIq3tyhp,A5i5KftHm5pLEtfL8z31uY" />
+          <ControlPoint Id="A5i5KftHm5pLEtfL8z31uY" Bounds="904,496" />
+          <Pin Id="Vx6FcwrklbZMSfzLwvlVci" Name="Name" Kind="OutputPin" />
+          <Link Id="KPiJaytIX8ZMAKPAMdEWHc" Ids="A5i5KftHm5pLEtfL8z31uY,Vx6FcwrklbZMSfzLwvlVci" IsHidden="true" />
+          <Link Id="P64Oj0scOD1OJ0DPXwIqXG" Ids="BRuoTYXoyvxL1gPDwH1GHn,PIsqeAbTmIhO3RhbpgDKyQ" />
+          <Link Id="MpXYKhFIRbFQZHLeMbw4yx" Ids="AR7P7yTdYXPO3FMAAJKzcI,MzdojykPKw8LB2gnqCW8x8" IsFeedback="true" />
+          <Link Id="If8kZd74aaJOFMmazcU3vQ" Ids="DVM6TYzrPKKNTPcaoLpPcp,MzdojykPKw8LB2gnqCW8x8" />
+          <Link Id="Df9gLczb39MLSBBDpr8qYq" Ids="MzdojykPKw8LB2gnqCW8x8,NdFvdgkEkgVLBrAGkyPUch" />
+          <ControlPoint Id="NdFvdgkEkgVLBrAGkyPUch" Bounds="983,510" />
+          <Pin Id="MqDwdGyfBCZOlxil8xu5GZ" Name="Universe" Kind="OutputPin" />
+          <Link Id="CE4pqbwykPDPTYmNG9BgVi" Ids="CqNm7UOFOhXOBhuGaF5zs2,MqDwdGyfBCZOlxil8xu5GZ" IsHidden="true" />
+          <Pin Id="Vw40Okzx2b4LI4HcCnsISO" Name="Start Address" Kind="OutputPin" />
+          <Link Id="LMSGHtANXl6Px1Vrvl9AHl" Ids="NdFvdgkEkgVLBrAGkyPUch,Vw40Okzx2b4LI4HcCnsISO" IsHidden="true" />
+          <Link Id="Dzj3PTWZyEXOgY0WkVCqCO" Ids="HZI1ER1MPDBQQtVFt56fCI,CxHBtWzB1Z8Mzsurmh8W5f" />
+          <Link Id="NwQhK0oQaeWPtEMAN70Lw0" Ids="LiPcC6q3orPNhaodVP0ve9,Dtkby8IzMXXL2f9C8vS0Py" />
+          <Link Id="NCLQ36FWj4EPDINq8YW9Wl" Ids="RbNeKthuyxoLhTXxNZgKrL,AflinYsRxvpPkbfuR7dNiT" IsFeedback="true" />
+          <Link Id="TAradzZphS4NNZSPXS9Q2T" Ids="TGfGPFmLUHlLUJSc1a16Q9,AflinYsRxvpPkbfuR7dNiT" />
+          <Link Id="S4y1FR597Q0NVK0Egh0ZcN" Ids="AflinYsRxvpPkbfuR7dNiT,CqNm7UOFOhXOBhuGaF5zs2" />
+          <ControlPoint Id="CqNm7UOFOhXOBhuGaF5zs2" Bounds="957,540" />
+        </Patch>
+      </Node>
     </Canvas>
     <!--
 
