@@ -23,6 +23,8 @@ namespace Fixture
         // Current high-level attribute states (Normalized 0.0 to 1.0)
         private readonly Dictionary<string, float> _attributeValues = new(StringComparer.OrdinalIgnoreCase);
 
+        public bool Enable { get; set; }
+
         public FixtureInstance(FixtureDefinition definition)
         {
             
