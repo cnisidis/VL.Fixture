@@ -67,6 +67,9 @@ namespace Fixture
 
         public Dictionary<string, int> Functions { get; set; } = new();
 
+        public string FeatureGroup { get; set; }
+        public string Feature {  get; set; }
+
 
     }
 }
