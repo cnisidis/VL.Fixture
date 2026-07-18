@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,9 @@ namespace Fixture
     {
 
     }
+
+    
+
     public class FixtureInstance
     {
         public string Name { get; set; }
@@ -22,6 +26,10 @@ namespace Fixture
 
         // Current high-level attribute states (Normalized 0.0 to 1.0)
         private readonly Dictionary<string, float> _attributeValues = new(StringComparer.OrdinalIgnoreCase);
+        /// <summary>
+        /// ValueChannels to Store and Interact values via vvvv and DMX (LightDesks)
+        /// </summary>
+        public readonly Dictionary<string, AbstractValueChannel> Channels = new();
 
         public bool Enable { get; set; }
 
@@ -29,6 +37,7 @@ namespace Fixture
         {
             
             this.Definition = definition;
+            Init();
         }
 
         public void SetMode(GenericDmxMode Mode)
@@ -54,6 +63,30 @@ namespace Fixture
                     ActiveMode = new GenericDmxMode();
             }
             
+        }
+
+        private void Init()
+        {
+            if(this.Definition != null)
+            {
+                //create mutable attributes (values) from definition
+
+                //check if activemode is valid
+                if (this.ActiveMode == null) { 
+                    this.ActiveMode = this.Definition.Modes[0];
+                    //Console.WriteLine("Warning: {G:0} fallback DMX mode (not active DMX Mode was set", this.Definition.ModelName);
+                }
+                else
+                {
+
+                }
+
+            }
+        }
+
+        public void Update()
+        {
+
         }
 
         public void SetMode(string modeName)
