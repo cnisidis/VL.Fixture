@@ -1709,14 +1709,14 @@
     ************************ GetModes ************************
 
 -->
-        <Node Name="GetModes" Bounds="271,133,161,254" Id="HGayCVOvPf6PgfmDiEWfIP">
+        <Node Name="GetModes" Bounds="218,143,213,301" Id="HGayCVOvPf6PgfmDiEWfIP">
           <p:NodeReference>
             <Choice Kind="OperationDefinition" Name="Operation" />
             <CategoryReference Kind="Category" Name="Primitive" />
           </p:NodeReference>
           <p:HideCategory p:Type="Boolean">false</p:HideCategory>
           <Patch Id="EmNgDfwrO72Mkiks7rlmcp">
-            <Node Bounds="294,190,65,19" Id="FcE07SQywS4NDy8T5fJZli">
+            <Node Bounds="241,200,65,19" Id="FcE07SQywS4NDy8T5fJZli">
               <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="IsAssigned" />
@@ -1725,7 +1725,7 @@
               <Pin Id="L7ggF41QlK7O5yw7UqQws4" Name="Result" Kind="OutputPin" />
               <Pin Id="BltF4NUZQj5MQXmSzi3Ddq" Name="Not Assigned" Kind="OutputPin" />
             </Node>
-            <Node Bounds="294,229,102,80" Id="TbDQQnQ70uINkqh9GKPxXj">
+            <Node Bounds="241,239,178,127" Id="TbDQQnQ70uINkqh9GKPxXj">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -1735,7 +1735,7 @@
               <Patch Id="VYH5yUqbIo0M21KYckzzxa" ManuallySortedPins="true">
                 <Patch Id="SLuw6Q6ybeBQRr2K0BbdaU" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="OBVoSS84ziBPqQJRpOe8zh" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="306,258,76,26" AutoConnect="true" Id="MeK9Nwu4XhRL2McZly8FRC">
+                <Node Bounds="253,268,76,26" AutoConnect="true" Id="MeK9Nwu4XhRL2McZly8FRC">
                   <p:NodeReference LastCategoryFullName="Fixture.FixtureDefinition" LastDependency="Fixture.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationNode" Name="Modes" />
@@ -1744,31 +1744,41 @@
                   <Pin Id="FrVJzLBbdj6NxgogiJNtVG" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="UA5PibGa66rNkOyyLsELP7" Name="Modes" Kind="OutputPin" />
                 </Node>
+                <Node Bounds="324,310,83,26" Id="IpjrXNk5V1COTnBL9XrlMo">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                    <Choice Kind="OperationCallFlag" Name="FromSequence" />
+                  </p:NodeReference>
+                  <Pin Id="SEGTzIgaqJHLREfNRLNJBd" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="NqXzjdwIYCHMvGHEFw1MI5" Name="Result" Kind="OutputPin" />
+                </Node>
               </Patch>
-              <ControlPoint Id="KUcSPM1H9tRPcJ3kpIBKYm" Bounds="308,235" Alignment="Top" />
-              <ControlPoint Id="UhhEOHWpT6xQE93C3yVksf" Bounds="308,303" Alignment="Bottom" />
-              <ControlPoint Id="Mk6VcBwpGdWPyat2oLGxv9" Bounds="379,303" Alignment="Bottom" />
-              <ControlPoint Id="Fn9oNnvEQ5QLrB0BhqXQJb" Bounds="379,235" Alignment="Top" />
+              <ControlPoint Id="KUcSPM1H9tRPcJ3kpIBKYm" Bounds="255,245" Alignment="Top" />
+              <ControlPoint Id="UhhEOHWpT6xQE93C3yVksf" Bounds="255,360" Alignment="Bottom" />
+              <ControlPoint Id="Mk6VcBwpGdWPyat2oLGxv9" Bounds="326,360" Alignment="Bottom" />
+              <ControlPoint Id="Fn9oNnvEQ5QLrB0BhqXQJb" Bounds="326,245" Alignment="Top" />
             </Node>
             <Link Id="BuXMUvGa5kDMP4435f53ER" Ids="L7ggF41QlK7O5yw7UqQws4,Rmlzo5UaYM1QVZbnMVc33m" />
             <Link Id="Ac05NxwIci8Lexyrwy8OQf" Ids="KUcSPM1H9tRPcJ3kpIBKYm,UhhEOHWpT6xQE93C3yVksf" IsFeedback="true" />
             <Link Id="FJfi9OIDDy0LVgLovOjQ1W" Ids="KUcSPM1H9tRPcJ3kpIBKYm,PtDx5oLbxgwORBLVYQ2uEz" />
             <Link Id="G64wM0sPB70OpCilhlPyKd" Ids="OFTWIiYlN1qMxNH06oOOjL,KUcSPM1H9tRPcJ3kpIBKYm" />
-            <ControlPoint Id="OFTWIiYlN1qMxNH06oOOjL" Bounds="308,151" />
+            <ControlPoint Id="OFTWIiYlN1qMxNH06oOOjL" Bounds="255,161" />
             <Pin Id="KsoZGkJQnVCOZGmCAdGMld" Name="Definition" Kind="InputPin" />
             <Link Id="CA5broow5hjOiIi4A2fXNj" Ids="KsoZGkJQnVCOZGmCAdGMld,OFTWIiYlN1qMxNH06oOOjL" IsHidden="true" />
             <Link Id="ETC7ZV4U4q2OiHeMk7mzpO" Ids="OFTWIiYlN1qMxNH06oOOjL,Vtq7kiIGhNMONWt8PD9ntd" />
             <Link Id="O14QM5aCBcPNI5h93nPfRF" Ids="FrVJzLBbdj6NxgogiJNtVG,UhhEOHWpT6xQE93C3yVksf" />
             <Link Id="P28iVNm0M4jNydlEGPs8Nf" Ids="UhhEOHWpT6xQE93C3yVksf,N3ki4NJmHFvPq40QHVaA6b" />
-            <ControlPoint Id="N3ki4NJmHFvPq40QHVaA6b" Bounds="308,370" />
+            <ControlPoint Id="N3ki4NJmHFvPq40QHVaA6b" Bounds="255,427" />
             <Pin Id="QSfcMcbEjn7QEfNs076Bsd" Name="Definition" Kind="OutputPin" />
             <Link Id="VfVV5Iqy14UNI7j1zqLb7I" Ids="N3ki4NJmHFvPq40QHVaA6b,QSfcMcbEjn7QEfNs076Bsd" IsHidden="true" />
             <Link Id="Qr3RMXcOTpYQXcZAlbeRgj" Ids="Fn9oNnvEQ5QLrB0BhqXQJb,Mk6VcBwpGdWPyat2oLGxv9" IsFeedback="true" />
-            <Link Id="Sn7Fkhly82eNoMejV8BdVV" Ids="UA5PibGa66rNkOyyLsELP7,Mk6VcBwpGdWPyat2oLGxv9" />
             <Link Id="I7PYxBKBbdcLFyjcJXOSel" Ids="Mk6VcBwpGdWPyat2oLGxv9,OkXIXxj5rfXNbLAdQdqcqA" />
-            <ControlPoint Id="OkXIXxj5rfXNbLAdQdqcqA" Bounds="379,320" />
+            <ControlPoint Id="OkXIXxj5rfXNbLAdQdqcqA" Bounds="326,377" />
             <Pin Id="GEY9JkwhgW7MhkYAskCuRX" Name="Modes" Kind="OutputPin" />
             <Link Id="CIHYuPvVdxLL01osiXV7wM" Ids="OkXIXxj5rfXNbLAdQdqcqA,GEY9JkwhgW7MhkYAskCuRX" IsHidden="true" />
+            <Link Id="JDCidA4SuSJLnfqyBwDlv1" Ids="UA5PibGa66rNkOyyLsELP7,SEGTzIgaqJHLREfNRLNJBd" />
+            <Link Id="A7JU21XCyRpN5meFBWPwrx" Ids="NqXzjdwIYCHMvGHEFw1MI5,Mk6VcBwpGdWPyat2oLGxv9" />
           </Patch>
         </Node>
         <Canvas Id="Qg9XufBdRwXLPuwGxwErxX" Name="GenericChannel" Position="443,70">
